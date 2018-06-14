@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDBButton.Label" xml:space="preserve">
+    <value> Create new database</value>
+  </data>
+  <data name="AddEditDateDialog.CloseButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AddEditDateDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="AddEditExerciseDialog.CloseButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AddEditExerciseDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>Adding</value>
+  </data>
+  <data name="AddRenameDBDialod.CloseButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AddRenameDBDialod.PrimaryButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="ApproachesTextBox.Header" xml:space="preserve">
+    <value>Approaches</value>
+  </data>
+  <data name="DataBasesList.Header" xml:space="preserve">
+    <value>Selecting a database</value>
+  </data>
+  <data name="DeleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteDataBaseQestion" xml:space="preserve">
+    <value>Are you sure you want to delete the database:</value>
+  </data>
+  <data name="DeleteDateQestion" xml:space="preserve">
+    <value>Are you sure you want to delete the date:</value>
+  </data>
+  <data name="DeleteDialog.CloseButtonText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="DeleteDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="DeleteDialog.Title" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteExerciseQestion" xml:space="preserve">
+    <value>Are you sure you want to delete the exercise:</value>
+  </data>
+  <data name="DetailsTextBox.Header" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="EditingText" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="ErrorDateTextBlock.Text" xml:space="preserve">
+    <value>This date already exists!</value>
+  </data>
+  <data name="ErrorDBTextBlock.Text" xml:space="preserve">
+    <value>A file with this name already exists!</value>
+  </data>
+  <data name="ErrorDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="ErrorDialog.Title" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="ErrorExerciseTextBlock.Text" xml:space="preserve">
+    <value>Such an exercise already exists!</value>
+  </data>
+  <data name="ExerciseNameTextBox.Header" xml:space="preserve">
+    <value>Exercise</value>
+  </data>
+  <data name="ExportButton.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ImportButton.Label" xml:space="preserve">
+    <value>Import databases</value>
+  </data>
+  <data name="InformationDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="InformationDialog.Title" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="NameDBTextBox.Header" xml:space="preserve">
+    <value>Database name</value>
+  </data>
+  <data name="NewDatePicker.Header" xml:space="preserve">
+    <value>Enter a new date</value>
+  </data>
+  <data name="RefreshButton.Label" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="RenameButton.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RepetitionTextBox.Header" xml:space="preserve">
+    <value>Repetition</value>
+  </data>
+  <data name="AddDateButton.Label" xml:space="preserve">
+    <value>Add date</value>
+  </data>
+  <data name="AddExerciseButton.Label" xml:space="preserve">
+    <value>Add exercise</value>
+  </data>
+  <data name="ApproachesTextBlock.Text" xml:space="preserve">
+    <value>Approaches: </value>
+  </data>
+  <data name="CompleteExportText" xml:space="preserve">
+    <value>Export completed!</value>
+  </data>
+  <data name="DetailsTextBlock.Text" xml:space="preserve">
+    <value>Details: </value>
+  </data>
+  <data name="EditButton.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ExerciseNameTextBlock.Text" xml:space="preserve">
+    <value>Exercise: </value>
+  </data>
+  <data name="RepetitionsTextBlock.Text" xml:space="preserve">
+    <value>Repetitions: </value>
+  </data>
+  <data name="ShowDBNameButton.Label" xml:space="preserve">
+    <value>Show database name</value>
+  </data>
+  <data name="ToDBListButton.Label" xml:space="preserve">
+    <value>To databases list</value>
+  </data>
+  <data name="PersonalizationItem.Name" xml:space="preserve">
+    <value>Personalization</value>
+  </data>
+  <data name="SettingsButton.Label" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SelectLanguageComboBox.Header" xml:space="preserve">
+    <value>Current language</value>
+  </data>
+  <data name="EmptyDateCollectionErrorText" xml:space="preserve">
+    <value>The collection of dates is empty, add a date!</value>
+  </data>
+  <data name="ApplyButton.Content" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="EmptyText.Text" xml:space="preserve">
+    <value>Empty...</value>
+  </data>
+  <data name="SuccessfullyText" xml:space="preserve">
+    <value>Successfully!</value>
+  </data>
+  <data name="FailedText" xml:space="preserve">
+    <value>Failed!</value>
+  </data>
+  <data name="ExportAllButton.Label" xml:space="preserve">
+    <value>Export all files</value>
+  </data>
+  <data name="OpenInNewWindowButton.Text" xml:space="preserve">
+    <value>Open in new window</value>
+  </data>
+  <data name="ImportText" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ThemeText.Text" xml:space="preserve">
+    <value>Theme (reboot needed)</value>
+  </data>
+  <data name="ThemeTextDark.Content" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="ThemeTextLight.Content" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="PersonalizationText.Text" xml:space="preserve">
+    <value>Personalization</value>
+  </data>
+  <data name="EmptyDataBaseCollectionErrorText" xml:space="preserve">
+    <value>The collection of db is empty, add a db!</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>Copied!</value>
+  </data>
+  <data name="CopyAppBarButton.Label" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyErrorTextHLinkButton.Content" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ExportDialog.Title" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExportFinishedTextBlock.Text" xml:space="preserve">
+    <value>Export Finished!</value>
+  </data>
+  <data name="OpenReportHLink.Content" xml:space="preserve">
+    <value>Open report</value>
+  </data>
+  <data name="PasteAppBarButton.Label" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="EmptyDBList" xml:space="preserve">
+    <value>Databases list is empty!</value>
+  </data>
+  <data name="CompleteImportText" xml:space="preserve">
+    <value>Import completed!</value>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>Export</value>
+  </data>
+</root>

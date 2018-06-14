@@ -1,0 +1,15 @@
+﻿<ContentDialog
+    x:Class="SportDiary.ContentDialogs.AddEditDateDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SportDiary.ContentDialogs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Uid="AddEditDateDialog"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick">
+    <StackPanel>
+        <DatePicker x:Uid="NewDatePicker" x:Name="NewDate" DateChanged="NewDate_DateChanged"/>
+        <TextBlock x:Uid="ErrorDateTextBlock" Name="ErrorDateTextBlock" Foreground="Red"></TextBlock>
+    </StackPanel>
+</ContentDialog>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ru" original="SPORTDIARY/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="SPORTDIARY/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AddDBButton.Label" translate="yes" xml:space="preserve">
+          <source> Create new database</source>
+          <target state="translated" state-qualifier="tm-suggestion">Создать базу данных</target>
+        </trans-unit>
+        <trans-unit id="AddEditDateDialog.CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">Отмена</target>
+        </trans-unit>
+        <trans-unit id="AddEditDateDialog.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Ок</target>
+        </trans-unit>
+        <trans-unit id="AddEditExerciseDialog.CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">Отмена</target>
+        </trans-unit>
+        <trans-unit id="AddEditExerciseDialog.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Ок</target>
+        </trans-unit>
+        <trans-unit id="AddingText" translate="yes" xml:space="preserve">
+          <source>Adding</source>
+          <target state="translated" state-qualifier="tm-suggestion">Добавление</target>
+        </trans-unit>
+        <trans-unit id="AddRenameDBDialod.CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">Отмена</target>
+        </trans-unit>
+        <trans-unit id="AddRenameDBDialod.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Ок</target>
+        </trans-unit>
+        <trans-unit id="ApproachesTextBox.Header" translate="yes" xml:space="preserve">
+          <source>Approaches</source>
+          <target state="translated">Подходов</target>
+        </trans-unit>
+        <trans-unit id="DataBasesList.Header" translate="yes" xml:space="preserve">
+          <source>Selecting a database</source>
+          <target state="translated">Выбор базы данных</target>
+        </trans-unit>
+        <trans-unit id="DeleteButton.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Удалить</target>
+        </trans-unit>
+        <trans-unit id="DeleteDataBaseQestion" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the database:</source>
+          <target state="translated">Вы действительно хотите удалить базу данных:</target>
+        </trans-unit>
+        <trans-unit id="DeleteDateQestion" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the date:</source>
+          <target state="translated">Вы уверены, что хотите удалить дату:</target>
+        </trans-unit>
+        <trans-unit id="DeleteDialog.CloseButtonText" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated" state-qualifier="tm-suggestion">Нет</target>
+        </trans-unit>
+        <trans-unit id="DeleteDialog.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated" state-qualifier="tm-suggestion">Да</target>
+        </trans-unit>
+        <trans-unit id="DeleteDialog.Title" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">Удалить</target>
+        </trans-unit>
+        <trans-unit id="DeleteExerciseQestion" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the exercise:</source>
+          <target state="translated">Вы действительно хотите удалить упражнение:</target>
+        </trans-unit>
+        <trans-unit id="DetailsTextBox.Header" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="needs-review-translation">Подробности</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="EditingText" translate="yes" xml:space="preserve">
+          <source>Editing</source>
+          <target state="translated" state-qualifier="tm-suggestion">Изменение</target>
+        </trans-unit>
+        <trans-unit id="ErrorDateTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>This date already exists!</source>
+          <target state="translated">Эта дата уже существует!</target>
+        </trans-unit>
+        <trans-unit id="ErrorDBTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>A file with this name already exists!</source>
+          <target state="translated">Файл с таким именем уже существует!</target>
+        </trans-unit>
+        <trans-unit id="ErrorDialog.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Ок</target>
+        </trans-unit>
+        <trans-unit id="ErrorDialog.Title" translate="yes" xml:space="preserve">
+          <source>Error!</source>
+          <target state="translated">Ошибка!</target>
+        </trans-unit>
+        <trans-unit id="ErrorExerciseTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Such an exercise already exists!</source>
+          <target state="translated">Такое упражнение уже существует!</target>
+        </trans-unit>
+        <trans-unit id="ExerciseNameTextBox.Header" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="translated">Упражнение</target>
+        </trans-unit>
+        <trans-unit id="ExportButton.Text" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Экспорт</target>
+        </trans-unit>
+        <trans-unit id="ImportButton.Label" translate="yes" xml:space="preserve">
+          <source>Import databases</source>
+          <target state="translated">Импорт баз данных</target>
+        </trans-unit>
+        <trans-unit id="InformationDialog.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">Ок</target>
+        </trans-unit>
+        <trans-unit id="InformationDialog.Title" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="translated">Информация</target>
+        </trans-unit>
+        <trans-unit id="NameDBTextBox.Header" translate="yes" xml:space="preserve">
+          <source>Database name</source>
+          <target state="translated">Название базы данных</target>
+        </trans-unit>
+        <trans-unit id="NewDatePicker.Header" translate="yes" xml:space="preserve">
+          <source>Enter a new date</source>
+          <target state="translated">Введите новую дату</target>
+        </trans-unit>
+        <trans-unit id="RefreshButton.Label" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="translated" state-qualifier="tm-suggestion">Обновить</target>
+        </trans-unit>
+        <trans-unit id="RenameButton.Text" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">Переименовать</target>
+        </trans-unit>
+        <trans-unit id="RenameText" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">Переименовать</target>
+        </trans-unit>
+        <trans-unit id="RepetitionTextBox.Header" translate="yes" xml:space="preserve">
+          <source>Repetition</source>
+          <target state="translated">Повторений</target>
+        </trans-unit>
+        <trans-unit id="AddDateButton.Label" translate="yes" xml:space="preserve">
+          <source>Add date</source>
+          <target state="translated">Добавить дату</target>
+        </trans-unit>
+        <trans-unit id="AddExerciseButton.Label" translate="yes" xml:space="preserve">
+          <source>Add exercise</source>
+          <target state="translated">Добавить упражнение</target>
+        </trans-unit>
+        <trans-unit id="ApproachesTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Approaches: </source>
+          <target state="translated">Подходов:</target>
+        </trans-unit>
+        <trans-unit id="CompleteExportText" translate="yes" xml:space="preserve">
+          <source>Export completed!</source>
+          <target state="translated">Экспорт завершен!</target>
+        </trans-unit>
+        <trans-unit id="DetailsTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Details: </source>
+          <target state="translated">Подробности:</target>
+        </trans-unit>
+        <trans-unit id="EditButton.Text" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated" state-qualifier="tm-suggestion">Изменить</target>
+        </trans-unit>
+        <trans-unit id="ExerciseNameTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Exercise: </source>
+          <target state="translated">Упражнение:</target>
+        </trans-unit>
+        <trans-unit id="RepetitionsTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Repetitions: </source>
+          <target state="translated">Повторений:</target>
+        </trans-unit>
+        <trans-unit id="ShowDBNameButton.Label" translate="yes" xml:space="preserve">
+          <source>Show database name</source>
+          <target state="translated">Показать имя базы данных</target>
+        </trans-unit>
+        <trans-unit id="ToDBListButton.Label" translate="yes" xml:space="preserve">
+          <source>To databases list</source>
+          <target state="translated">В список баз данных</target>
+        </trans-unit>
+        <trans-unit id="PersonalizationItem.Name" translate="yes" xml:space="preserve">
+          <source>Personalization</source>
+          <target state="translated" state-qualifier="tm-suggestion">Персонализация</target>
+        </trans-unit>
+        <trans-unit id="SettingsButton.Label" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Параметры</target>
+        </trans-unit>
+        <trans-unit id="SelectLanguageComboBox.Header" translate="yes" xml:space="preserve">
+          <source>Current language</source>
+          <target state="translated" state-qualifier="tm-suggestion">Выбранный язык:</target>
+        </trans-unit>
+        <trans-unit id="EmptyDateCollectionErrorText" translate="yes" xml:space="preserve">
+          <source>The collection of dates is empty, add a date!</source>
+          <target state="translated">Коллекция дат пуста, добавьте дату!</target>
+        </trans-unit>
+        <trans-unit id="ApplyButton.Content" translate="yes" xml:space="preserve">
+          <source>Apply</source>
+          <target state="translated" state-qualifier="tm-suggestion">Применить</target>
+        </trans-unit>
+        <trans-unit id="EmptyText.Text" translate="yes" xml:space="preserve">
+          <source>Empty...</source>
+          <target state="translated">Пусто...</target>
+        </trans-unit>
+        <trans-unit id="SuccessfullyText" translate="yes" xml:space="preserve">
+          <source>Successfully!</source>
+          <target state="translated">Успешно!</target>
+        </trans-unit>
+        <trans-unit id="FailedText" translate="yes" xml:space="preserve">
+          <source>Failed!</source>
+          <target state="translated">Ошибка!</target>
+        </trans-unit>
+        <trans-unit id="ExportAllButton.Label" translate="yes" xml:space="preserve">
+          <source>Export all files</source>
+          <target state="translated">Экспорт всех файлов</target>
+        </trans-unit>
+        <trans-unit id="OpenInNewWindowButton.Text" translate="yes" xml:space="preserve">
+          <source>Open in new window</source>
+          <target state="translated">Открыть в новом окне</target>
+        </trans-unit>
+        <trans-unit id="ImportText" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated" state-qualifier="tm-suggestion">Импорт</target>
+        </trans-unit>
+        <trans-unit id="ThemeText.Text" translate="yes" xml:space="preserve">
+          <source>Theme (reboot needed)</source>
+          <target state="translated">Тема (требуется перезагрузка)</target>
+        </trans-unit>
+        <trans-unit id="ThemeTextDark.Content" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="translated" state-qualifier="tm-suggestion">Темная</target>
+        </trans-unit>
+        <trans-unit id="ThemeTextLight.Content" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="translated" state-qualifier="tm-suggestion">Светлая</target>
+        </trans-unit>
+        <trans-unit id="PersonalizationText.Text" translate="yes" xml:space="preserve">
+          <source>Personalization</source>
+          <target state="translated" state-qualifier="tm-suggestion">Персонализация</target>
+        </trans-unit>
+        <trans-unit id="EmptyDataBaseCollectionErrorText" translate="yes" xml:space="preserve">
+          <source>The collection of db is empty, add a db!</source>
+          <target state="translated">Коллекция БД пуста, добавьте БД!</target>
+        </trans-unit>
+        <trans-unit id="CopiedText" translate="yes" xml:space="preserve">
+          <source>Copied!</source>
+          <target state="translated">Скопировано!</target>
+        </trans-unit>
+        <trans-unit id="CopyAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">Копировать</target>
+        </trans-unit>
+        <trans-unit id="CopyErrorTextHLinkButton.Content" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">Копировать</target>
+        </trans-unit>
+        <trans-unit id="ExportDialog.Title" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Экспорт</target>
+        </trans-unit>
+        <trans-unit id="ExportFinishedTextBlock.Text" translate="yes" xml:space="preserve">
+          <source>Export Finished!</source>
+          <target state="translated">Экспорт завершен!</target>
+        </trans-unit>
+        <trans-unit id="OpenReportHLink.Content" translate="yes" xml:space="preserve">
+          <source>Open report</source>
+          <target state="translated">Открыть отчет</target>
+        </trans-unit>
+        <trans-unit id="PasteAppBarButton.Label" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="translated">Вставить</target>
+        </trans-unit>
+        <trans-unit id="EmptyDBList" translate="yes" xml:space="preserve">
+          <source>Databases list is empty!</source>
+          <target state="translated">Список баз данных пуст!</target>
+        </trans-unit>
+        <trans-unit id="CompleteImportText" translate="yes" xml:space="preserve">
+          <source>Import completed!</source>
+          <target state="translated">Импорт завершен!</target>
+        </trans-unit>
+        <trans-unit id="ExportText" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <target state="translated">Экспорт</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

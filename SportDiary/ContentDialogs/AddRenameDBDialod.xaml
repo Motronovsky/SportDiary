@@ -1,0 +1,15 @@
+﻿<ContentDialog
+    x:Class="SportDiary.ContentDialogs.AddRenameDBDialod"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SportDiary.ContentDialogs"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Uid="AddRenameDBDialod"
+    IsPrimaryButtonEnabled="False">
+    <StackPanel Orientation="Vertical">
+        <TextBox x:Uid="NameDBTextBox" Name="NameDB_TextBox" MaxLength="50" TextChanged="NameDB_TextChanged"></TextBox>
+        <TextBlock x:Uid="ErrorDBTextBlock" Foreground="Red" Name="ErrorText"></TextBlock>
+    </StackPanel>
+</ContentDialog>

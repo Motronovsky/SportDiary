@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="SportDiary.Views.SettingPages.PersonalizationSetting"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Loaded="Page_Loaded"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Uid="PersonalizationText" FontSize="25"/>
+        <StackPanel Grid.Row="1">
+            <ComboBox x:Uid="SelectLanguageComboBox" Name="LanguagesList" Width="auto" SelectionChanged="LanguagesList_SelectionChanged"/>
+            <StackPanel>
+                <TextBlock x:Uid="ThemeText" HorizontalAlignment="Left"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Name="LightThemeRadioButton" x:Uid="ThemeTextLight" Checked="ThemeRadioButton_Checked" Tag="Light"/>
+                    <RadioButton Name="DarkThemeRadioButton" x:Uid="ThemeTextDark" Checked="ThemeRadioButton_Checked" Tag="Dark"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

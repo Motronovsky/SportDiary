@@ -1,0 +1,29 @@
+﻿<Application
+    x:Class="SportDiary.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:SportDiary.Converters">
+    <Application.Resources>
+        <converters:DateToCultureFormat x:Key="StringFormatConverter" />
+        <converters:StringToVisible x:Key="StringToVisible" />
+        <converters:CountItemsToBool x:Key="CountItemsToBool"/>
+
+        <Style x:Key="ListViewItemStyle" TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+            <Setter Property="Padding" Value="0"/>
+            <!--<Setter Property="Background" Value="#FF3D36AB"></Setter>-->
+        </Style>
+
+        <Style x:Key="HeaderText" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0 0 5 0"/>
+        </Style>
+
+        <Storyboard x:Name="VisibleOff">
+            <DoubleAnimation Duration="0:0:2" To="0"
+    			Storyboard.TargetProperty="Opacity"
+    			Storyboard.TargetName="EmptyExercisesListText" />
+        </Storyboard>
+    </Application.Resources>
+</Application>

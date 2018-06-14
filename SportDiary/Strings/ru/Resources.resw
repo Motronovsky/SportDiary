@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDBButton.Label" xml:space="preserve">
+    <value>Создать базу данных</value>
+  </data>
+  <data name="AddEditDateDialog.CloseButtonText" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="AddEditDateDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="AddEditExerciseDialog.CloseButtonText" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="AddEditExerciseDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>Добавление</value>
+  </data>
+  <data name="AddRenameDBDialod.CloseButtonText" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="AddRenameDBDialod.PrimaryButtonText" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ApproachesTextBox.Header" xml:space="preserve">
+    <value>Подходов</value>
+  </data>
+  <data name="DataBasesList.Header" xml:space="preserve">
+    <value>Выбор базы данных</value>
+  </data>
+  <data name="DeleteButton.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteDataBaseQestion" xml:space="preserve">
+    <value>Вы действительно хотите удалить базу данных:</value>
+  </data>
+  <data name="DeleteDateQestion" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить дату:</value>
+  </data>
+  <data name="DeleteDialog.CloseButtonText" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="DeleteDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="DeleteDialog.Title" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DeleteExerciseQestion" xml:space="preserve">
+    <value>Вы действительно хотите удалить упражнение:</value>
+  </data>
+  <data name="DetailsTextBox.Header" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="EditingText" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="ErrorDateTextBlock.Text" xml:space="preserve">
+    <value>Эта дата уже существует!</value>
+  </data>
+  <data name="ErrorDBTextBlock.Text" xml:space="preserve">
+    <value>Файл с таким именем уже существует!</value>
+  </data>
+  <data name="ErrorDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ErrorDialog.Title" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="ErrorExerciseTextBlock.Text" xml:space="preserve">
+    <value>Такое упражнение уже существует!</value>
+  </data>
+  <data name="ExerciseNameTextBox.Header" xml:space="preserve">
+    <value>Упражнение</value>
+  </data>
+  <data name="ExportButton.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ImportButton.Label" xml:space="preserve">
+    <value>Импорт баз данных</value>
+  </data>
+  <data name="InformationDialog.PrimaryButtonText" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="InformationDialog.Title" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="NameDBTextBox.Header" xml:space="preserve">
+    <value>Название базы данных</value>
+  </data>
+  <data name="NewDatePicker.Header" xml:space="preserve">
+    <value>Введите новую дату</value>
+  </data>
+  <data name="RefreshButton.Label" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="RenameButton.Text" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="RenameText" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="RepetitionTextBox.Header" xml:space="preserve">
+    <value>Повторений</value>
+  </data>
+  <data name="AddDateButton.Label" xml:space="preserve">
+    <value>Добавить дату</value>
+  </data>
+  <data name="AddExerciseButton.Label" xml:space="preserve">
+    <value>Добавить упражнение</value>
+  </data>
+  <data name="ApproachesTextBlock.Text" xml:space="preserve">
+    <value>Подходов:</value>
+  </data>
+  <data name="CompleteExportText" xml:space="preserve">
+    <value>Экспорт завершен!</value>
+  </data>
+  <data name="DetailsTextBlock.Text" xml:space="preserve">
+    <value>Подробности:</value>
+  </data>
+  <data name="EditButton.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ExerciseNameTextBlock.Text" xml:space="preserve">
+    <value>Упражнение:</value>
+  </data>
+  <data name="RepetitionsTextBlock.Text" xml:space="preserve">
+    <value>Повторений:</value>
+  </data>
+  <data name="ShowDBNameButton.Label" xml:space="preserve">
+    <value>Показать имя базы данных</value>
+  </data>
+  <data name="ToDBListButton.Label" xml:space="preserve">
+    <value>В список баз данных</value>
+  </data>
+  <data name="PersonalizationItem.Name" xml:space="preserve">
+    <value>Персонализация</value>
+  </data>
+  <data name="SettingsButton.Label" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="SelectLanguageComboBox.Header" xml:space="preserve">
+    <value>Выбранный язык:</value>
+  </data>
+  <data name="EmptyDateCollectionErrorText" xml:space="preserve">
+    <value>Коллекция дат пуста, добавьте дату!</value>
+  </data>
+  <data name="ApplyButton.Content" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="EmptyText.Text" xml:space="preserve">
+    <value>Пусто...</value>
+  </data>
+  <data name="SuccessfullyText" xml:space="preserve">
+    <value>Успешно!</value>
+  </data>
+  <data name="FailedText" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="ExportAllButton.Label" xml:space="preserve">
+    <value>Экспорт всех файлов</value>
+  </data>
+  <data name="OpenInNewWindowButton.Text" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="ImportText" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="ThemeText.Text" xml:space="preserve">
+    <value>Тема (требуется перезагрузка)</value>
+  </data>
+  <data name="ThemeTextDark.Content" xml:space="preserve">
+    <value>Темная</value>
+  </data>
+  <data name="ThemeTextLight.Content" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="PersonalizationText.Text" xml:space="preserve">
+    <value>Персонализация</value>
+  </data>
+  <data name="EmptyDataBaseCollectionErrorText" xml:space="preserve">
+    <value>Коллекция БД пуста, добавьте БД!</value>
+  </data>
+  <data name="CopiedText" xml:space="preserve">
+    <value>Скопировано!</value>
+  </data>
+  <data name="CopyAppBarButton.Label" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="CopyErrorTextHLinkButton.Content" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="ExportDialog.Title" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ExportFinishedTextBlock.Text" xml:space="preserve">
+    <value>Экспорт завершен!</value>
+  </data>
+  <data name="OpenReportHLink.Content" xml:space="preserve">
+    <value>Открыть отчет</value>
+  </data>
+  <data name="PasteAppBarButton.Label" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="EmptyDBList" xml:space="preserve">
+    <value>Список баз данных пуст!</value>
+  </data>
+  <data name="CompleteImportText" xml:space="preserve">
+    <value>Импорт завершен!</value>
+  </data>
+  <data name="ExportText" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+</root>
