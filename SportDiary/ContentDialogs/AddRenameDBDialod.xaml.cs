@@ -9,10 +9,17 @@ using Windows.UI.Xaml.Controls;
 
 namespace SportDiary.ContentDialogs
 {
+    /// <summary>
+    /// Диалог переименования файла БД
+    /// </summary>
     public sealed partial class AddRenameDBDialod : ContentDialog
     {
         #region Fields
-        private readonly string currentName;
+        //private readonly string currentName;
+
+        /// <summary>
+        /// Коллекция файлов БД
+        /// </summary>
         private ObservableCollection<StorageFile> dataBaseCollection;
         #endregion
 
@@ -36,7 +43,7 @@ namespace SportDiary.ContentDialogs
             else
             {
                 Title = ResourceLoader.GetForCurrentView().GetString("RenameText");
-                NameDataBase = currentName = nameDB;
+                NameDataBase = nameDB;
                 NameDB_TextBox.Focus(FocusState.Keyboard);
                 NameDB_TextBox.SelectAll();
             }
@@ -52,6 +59,9 @@ namespace SportDiary.ContentDialogs
         #endregion
 
         #region Methods
+        /// <summary>
+        /// Проверка имени БД
+        /// </summary>
         private void CheckNameDataBase()
         {
             if (NameDataBase == string.Empty)

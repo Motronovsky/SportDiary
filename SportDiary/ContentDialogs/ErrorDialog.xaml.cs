@@ -7,10 +7,14 @@ using Windows.UI.Xaml.Controls;
 
 namespace SportDiary.ContentDialogs
 {
+    /// <summary>
+    /// Диалог показывающий ошибку
+    /// </summary>
     public sealed partial class ErrorDialog : ContentDialog
     {
         public string ErrorString { get; set; }
 
+        /// <param name="errorString">Текст ошибки</param>
         public ErrorDialog(string errorString)
         {
             ErrorString = errorString;
@@ -23,6 +27,7 @@ namespace SportDiary.ContentDialogs
             dataPackage.SetText(ErrorString);
             Clipboard.SetContent(dataPackage);
 
+            //Вывод уведомления
             ToastContent toastContent = new ToastContent
             {
                 Visual = new ToastVisual

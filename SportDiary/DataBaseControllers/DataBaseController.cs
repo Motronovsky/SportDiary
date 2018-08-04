@@ -9,6 +9,9 @@ namespace SportDiary.DataBaseControllers
     static class DataBaseController
     {
         #region Methods
+        /// <summary>
+        /// Проверка БД на существование, если её не существует
+        /// </summary>
         public static SqliteConnection CheckDataBaseFile(string connectionString = null)
         {
             string pathToDataBasesFolder = Path.Combine(ApplicationData.Current.LocalFolder.Path, "DataBases");
@@ -32,6 +35,9 @@ namespace SportDiary.DataBaseControllers
             return new SqliteConnection(connectionString);
         }
 
+        /// <summary>
+        /// Проверка БД на наличие определенных таблиц, если какой либо таблицы не существует - создает её
+        /// </summary>
         public static void CreateDataBase(string connectionString)
         {
                 using (SqliteConnection connection = new SqliteConnection(connectionString))
@@ -57,6 +63,7 @@ namespace SportDiary.DataBaseControllers
                 }
         }
 
+        /// <returns>Возвращает колекцию имен таблиц БД</returns>
         private static List<string> GetTablesList(SqliteConnection connection)
         {
             List<string> tables = new List<string>();

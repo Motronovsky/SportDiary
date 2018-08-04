@@ -6,6 +6,9 @@ using SportDiary.Models;
 
 namespace SportDiary.ContentDialogs
 {
+    /// <summary>
+    /// Диалог удаления даты, упражнения или файла БД
+    /// </summary>
     public sealed partial class DeleteDialog : ContentDialog
     {
         public string TextDialog { get; set; }

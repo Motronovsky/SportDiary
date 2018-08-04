@@ -7,10 +7,21 @@ using SportDiary.Models;
 
 namespace SportDiary.ContentDialogs
 {
+    /// <summary>
+    /// Диалоговое окно для добавления или редактирования поля таблицы Dates
+    /// </summary>
     public sealed partial class AddEditDateDialog : ContentDialog
     {
         #region Fields
+
+        /// <summary>
+        /// Ссылка на редактируемую сущность
+        /// </summary>
         private Date editDate;
+
+        /// <summary>
+        /// Ссылка на контроллер таблицы Dates
+        /// </summary>
         private DatesDBController datesDBController;
         #endregion
 
@@ -29,6 +40,9 @@ namespace SportDiary.ContentDialogs
         #endregion
 
         #region Constructors
+        /// <param name="date">Ссылка на редактируемую сущность</param>
+        /// <param name="dBController">Ссылка на контроллер таблицы Dates</param>
+        /// <param name="isAdd">true = добавление, false = редактирование</param>
         public AddEditDateDialog(Date date, DatesDBController dBController, bool isAdd = false)
         {
             editDate = date;
@@ -49,7 +63,7 @@ namespace SportDiary.ContentDialogs
         }
         #endregion
 
-        #region Methods
+        #region Event Hundlers
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
             editDate.When = DateTime.Parse(NewDate.Date.ToString());
@@ -59,7 +73,12 @@ namespace SportDiary.ContentDialogs
         {
             CheckDate();
         }
+        #endregion
 
+        #region Methods
+        /// <summary>
+        /// Проверка введенной даты на доступность
+        /// </summary>
         private void CheckDate()
         {
             if (datesDBController.GetCountDates(Convert.ToDateTime(NewDate.Date.ToString())) > 0)
@@ -73,13 +92,6 @@ namespace SportDiary.ContentDialogs
                 OkButtonEnabled = true;
             }
         }
-
-        //public event PropertyChangedEventHandler PropertyChanged;
-
-        //public void OnPropertyChanged([CallerMemberName]string propertyName = null)
-        //{
-        //    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        //} 
         #endregion
     }
 }

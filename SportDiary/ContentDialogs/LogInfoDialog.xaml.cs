@@ -10,10 +10,15 @@ using Windows.UI.Xaml.Controls;
 
 namespace SportDiary.ContentDialogs
 {
+    /// <summary>
+    /// Диалог показывающий информацию с отчетом
+    /// </summary>
     public sealed partial class LogInfoDialog : ContentDialog
     {
         StorageFile logFile;
 
+        /// <param name="file">Файл отчета</param>
+        /// <param name="mode">Экспорт, импорт</param>
         public LogInfoDialog(StorageFile file, Mode mode)
         {
             this.InitializeComponent();

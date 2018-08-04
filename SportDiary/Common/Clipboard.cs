@@ -9,9 +9,16 @@ using Windows.Storage;
 
 namespace SportDiary.Common
 {
+    /// <summary>
+    /// Буфер обмена
+    /// </summary>
     static class Clipboard
     {
         #region Methods
+        /// <summary>
+        /// Сохранение в буфер обмена
+        /// </summary>
+        /// <param name="obj">Объект, который надо поместить в буфер обмена</param>
         public static async void SerializeAsync(object obj)
         {
             if(obj == null)
@@ -31,6 +38,10 @@ namespace SportDiary.Common
             }
         }
 
+        /// <summary>
+        /// Достать обьект из буфера обмена
+        /// </summary>
+        /// <returns>Возвращает объект, который находится в буфере обмена</returns>
         public async static Task<object> DeserializeAsync()
         {
             try
